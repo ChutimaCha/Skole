@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+header {
+    height: 130px;
+    width: auto;
+    background-color: #a8a8a8;
+    color: black;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 15px;
+}
+
+main {
+    margin-top: 10px;
+}
