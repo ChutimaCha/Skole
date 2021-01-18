@@ -64,6 +64,13 @@ body {
     flex-direction: column;
 }
 
+
+/*Her i main p tags være en font som links til google font side i index.html fil, Marck Script font*/
+
+.main p {
+    font-family: 'Marck Script';
+}
+
 article,
 h3,
 p {
@@ -83,8 +90,13 @@ h3 {
     flex-direction: row;
 }
 
-#info>h4 {
-    font-family: 'Segoe UI', Tahoma;
+@font-face {
+    font-family: Sacramento_font;
+    src: url(/font/Sacramento-Regular.ttf);
+}
+
+#info h4 {
+    font-family: Sacramento_font;
     font-weight: normal;
 }
 
