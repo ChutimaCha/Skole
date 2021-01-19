@@ -1,0 +1,259 @@
+* {
+    font-family: 'Raleway';
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Booknow {
+    background-color: black;
+    color: white;
+    width: 10rem;
+    height: 45px;
+    padding-top: 1%;
+    margin: 7%;
+    position: fixed;
+    right: 20px;
+    top: 40%;
+}
+
+.Booknow::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    z-index: -1;
+    border: solid 15px black;
+    border-left-color: black;
+    transform: rotate(45deg);
+}
+
+.Logo {
+    width: 6rem;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30pt;
+    color: black;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+.Aktiv {
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+nav {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding-top: .5rem;
+    padding-left: 3rem;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+}
+
+header {
+    background-image: url("/images/banner.jpg");
+    height: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header>p {
+    color: white;
+    font-family: 'Open sans';
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 15%;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: black;
+    margin-top: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+h6 {
+    color: white;
+    padding: top 30px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0px;
+}
+
+section {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery>article>img {
+    height: 260px;
+}
+
+.social {
+    font-weight: bold;
+}
+
+article>p {
+    font-family: 'Open Sans';
+}
+
+article>h2 {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    width: 250px;
+}
+
+table {
+    margin-top: 10%;
+    border-collapse: collapse;
+    margin: 0 auto 0 auto;
+}
+
+.soldout {
+    background-color: darkred;
+    color: white;
+    width: 40%;
+}
+
+.green {
+    padding: 0 .3em;
+    display: inline;
+    background-color: darkgreen;
+    color: white;
+}
+
+.Land {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Land>article {
+    background-color: white;
+    width: 300px;
+}
+
+.Land>article>img {
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+video {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.last-child {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around
+}
+
+.last-child>article>img {
+    width: 30px;
+}
+
+.last-child>article {
+    text-align: center;
+}
+
+.last-child p {
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+input {
+    font-family: 'open sans';
+    width: 40rem;
+    height: 2rem;
+    margin: 5px auto;
+    padding: .5rem;
+}
+
+textarea {
+    width: 40rem;
+    padding: .5rem;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: 15rem;
+}
+
+form {
+    text-align: left;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    background-color: black;
+    padding-top: 1px;
+    margin-top: 10px;
+}

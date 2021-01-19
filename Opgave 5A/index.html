@@ -1,72 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opgave2A</title>
-    <link rel="stylesheet" href="stylesheet/stylesheet.css">
-
+    <title>MY PROFILE 3</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
 </head>
 
 <body>
+
     <header>
-        <!--Benyt background image-->
-        <div id="headerimg"></div>
+        <div id="main-title">
+            <h1 class="main-title">WordPress & Front-end Developer</h1>
+            <h2 class="main-subtitle">Producing high quality responsive websites and exceptional user experience</h2>
+        </div>
     </header>
 
-    <main>
+    <section>
         <nav>
+            <img src="images/Me.jpg" alt="Me">
             <ul>
-                <li><a href="#">HOME PAGE</a></li>
+                <li class="active"><a href="#">HOME PAGE</a></li>
                 <li><a href="#">ABOUT ME</a></li>
                 <li><a href="#">MY PROJECTS</a></li>
                 <li><a href="#">NEWS</a></li>
-                <li><a href="#">CONTACT ME</a></li>
+                <li><a href="contact.html">CONTACT ME</a></li>
             </ul>
         </nav>
-
         <article>
             <h2>Welcome to my website</h2>
             <p>I am a WordPress & Front-end Developer, graduate of Internet Technology. I have 5 years commercial experience working with clients from around the world, providing responsive front-end development and WordPress websites.</p>
             <p>Clients often approach me when they need a developer who can provide:</p>
 
             <div>
-                <img src="img/responsive.png" alt="Responsive photo">
+                <img src="images/responsive.png" alt="Responsive photo">
             </div>
 
-            <ol>
-                <li>Responsive Websites
-                    <li>Front-end Development</li>
-
-                    <ul type="circle">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-
-                        <ul type="square">
-                            <li>jQuery</li>
-                            <li>AngularJS</li>
-                        </ul>
-                        <li>Performance</li>
-                        <li>Animation</li>
+            <ol type="decimal">
+                <li>Responsive Websites</li>
+                <li>Front-end Development</li>
+                <ul type="circle">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <ul type="square">
+                        <li>jQuery</li>
+                        <li>AngularJS</li>
                     </ul>
-                    <li>WordPress Websites</li>
-                    <ul type="circle">
-                        <li>Theme Development</li>
-                        <li>Admin/Plugin Setup</li>
-                        <li>Custom Functionality</li>
-                    </ul>
+                    <li>Performance</li>
+                    <li>Animation</li>
+                </ul>
+                <li>WordPress Websites</li>
+                <ul type="circle">
+                    <li>Theme Development</li>
+                    <li>Admin/Plugin Setup</li>
+                    <li>Custom Functionality</li>
+                </ul>
             </ol>
-
-            <article>
-                <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
-                <p>Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.</p>
-                <p>My clients have found that launching with a well considered and well developed front-end has saved them time and money and makes for a product that is consistently of high quality.</p>
-            </article>
+            <p>The work I provide is of highest quality, fully responsive, and tested in a wide range of devices. I take great care to ensure each project is well-documented and easily maintainable so you can enhance a website as your company grows.</p>
+            <p>Often front-end development of a website is overlooked, but being the part of your project that combines design, back-end development and the layer that your users interact with, from my experience, it is the most important to get right.</p>
+            <p>My clients have found that launching with a well considered and well developed front-end has saved them time and money and makes for a product that is consistently of high quality.</p>
 
             <h2>My customers</h2>
-            <table>
+            <table id="customers">
                 <tr>
                     <th>Company</th>
                     <th>Contact</th>
@@ -123,12 +118,17 @@
                     <td>France</td>
                 </tr>
             </table>
-    </main>
+        </article>
+
+    </section>
+
+    <section class="con-me">
+        <a href="mailto:info@me.com"><img src="images/Gmailicon.png" alt="Contact us"></a>
+    </section>
+
 
     <footer>
-        <p>All right reserved af <a href="https://vuknet.com/">Chutima Cha-Un © 2020</a>
-        </p>
-
+        <p>All rights reserved © 2018</p>
     </footer>
 </body>
 

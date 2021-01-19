@@ -1,0 +1,148 @@
+body {
+    font-family: tahoma, Helvetica, sans-serif;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(images/developer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+
+header img,
+nav img {
+    width: 75%;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    background: #ccc;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+nav li {
+    padding: 10px;
+    background-color: gray;
+}
+
+nav li:hover {
+    background-color: dimgray;
+}
+
+article {
+    padding: 20px;
+    width: 80%;
+}
+
+article div {
+    float: right;
+    width: 50%;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+}
+
+#main-title {
+    background-color: RGBA(255, 255, 255, 0.3);
+    width: 685px;
+    padding: 10px;
+    border: 1px #8e8b8b solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-title {
+    color: brown;
+}
+
+.main-subtitle {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.active {
+    background-color: brown;
+}
+
+.active a {
+    color: white;
+}
+
+input,
+textarea,
+select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.button {
+    color: white;
+    text-transform: uppercase;
+    background-color: brown;
+    border: 0;
+    padding: 15px 30px;
+}
+
+.con-me {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+}
+
+.con-me img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

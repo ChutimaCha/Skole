@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY PROFILE 3</title>
+<link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+<body>
+<header>
+	<div  id="main-title">
+		<h1 class="main-title">WordPress & Front-end Developer</h1>
+		<h2 class="main-subtitle">Producing high quality responsive websites and exceptional user experience</h2>
+	</div>
+</header>
+
+<section>
+  <nav>
+	  <img src="images/Me.jpg" alt="Me">
+	  <ul>
+		  <li><a href="index.html">HOME PAGE</a></li>
+		  <li><a href="#">ABOUT ME</a></li>
+		  <li><a href="#">MY PROJECTS</a></li>
+		 <li><a href="#">NEWS</a></li>
+		 <li class="active"><a href="contact.html">CONTACT ME</a></li>
+	  </ul>
+  </nav>
+  
+  <article>
+	<p>General messages may be sent via the contact form.</p>
+		<form action="" method="">
+			<h2>About You</h2>
+			<p>Name*<br><input type="text" name="your-name" size="40" placeholder="Your name" required></p>
+			<p>Email address*<br><input type="email" name="email" size="40" placeholder="eg. name@web.dk" required></p>
+			<p>Your website<br><input type="url" name="website" size="40" placeholder="eg. www.hansenberg.dk"></p>
+			<h2>Project Details</h2>
+			<p>Please specify a budget and ideal completion date. This helps me determine the best solution within your given circumstances.</p>
+			<p>Your Budget<br><input type="text" name="budget" size="40" placeholder="eg. 10000 kr."></p>
+			<p>Your ideal completion date<br> 
+			<select name="timeline">
+				<option value="Please select">Please select</option>
+				<option value="As soon as possible">As soon as possible</option>
+				<option value="In 1 month">In 1 month</option>
+				<option value="In 2 months">In 2 months</option>
+				<option value="In 3 months">In 3 months</option>
+				<option value="In 4 months or more">In 4 months or more</option>
+				<option value="Not sure/To be determined">Not sure/To be determined</option>
+			</select>
+			</p>
+			<h2>Message*</h2>
+			<p><textarea name="your-message" cols="40" rows="10" placeholder="Write your message her..." required></textarea></p>
+			<label>
+				<input type="checkbox" name="opt-in" checked=""> Send me news, updates, and offers in the future
+			</label>
+			<br> 
+			<small>
+				<p>I promise to keep your details private and send emails only very occasionally. You may unsubscribe at any time.</p>
+			</small>
+			<input type="submit" value="Send" class="button">
+		</form>
+  </article>
+</section>
+	
+<footer>
+  <p>All rights reserved © 2018</p>
+</footer>
+</body>
+</html>

@@ -98,3 +98,7 @@ footer {
     color: #f1f1f1;
     text-align: center;
 }
+
+footer a {
+    color: #e2b4b4;
+}
