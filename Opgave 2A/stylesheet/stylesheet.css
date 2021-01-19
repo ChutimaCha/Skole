@@ -73,6 +73,25 @@ article div {
     width: 50%;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: brown;
+    color: white;
+}
+
 footer {
     background-color: #a4292c;
     padding: 20px;
