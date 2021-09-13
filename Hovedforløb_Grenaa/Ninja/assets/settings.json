@@ -1,0 +1,35 @@
+{
+  "topImage": [
+    {
+      "image": "assets/website-top.jpg",
+      "imagemobil": "assets/website-top-small.jpg"
+    }
+  ],
+  "mObj": [
+    {
+      "headline": "ABOUT",
+      "title": "ABOUT",
+      "description": "Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at."
+    },
+    {
+      "headline": "WHAT",
+      "title": "WHAT",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+    },
+    {
+      "headline": "CONTACT",
+      "title": "CONTACT",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham"
+    }
+  ],
+  "mObjColors": [
+    "#0F528C",
+    "#2182BF",
+    "#D9AD29"
+  ],
+  "footer": [
+    {
+      "footertext": "LARS GREGERSEN | MANGLERBARELIGE@GMAIL.COM | 2854 7407"
+    }
+  ]
+}

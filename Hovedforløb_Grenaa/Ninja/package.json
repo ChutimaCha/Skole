@@ -1,0 +1,52 @@
+{
+  "name": "defaultgamefolder",
+  "version": "1.0.0",
+  "description": "starting a new game",
+  "main": "./src/app.js",
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack --config prod.config.js",
+    "start": "http-server -p 8080 -o http://localhost:8080/index.html"
+  },
+  "author": "larg",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^4.5.3",
+    "eventemitter3-timer": "^1.0.1",
+    "ffmpeg": "0.0.4",
+    "firebase": "^7.15.1",
+    "gsap": "^3.5.1",
+    "howler": "^2.2.1",
+    "http-server": "^0.9.0",
+    "jquery": "^3.5.1",
+    "pixi-spine": "^2.1.3",
+    "pixi-timeout": "^1.0.4",
+    "pixi-timer": "^1.0.1",
+    "pixi.js": "^5.2.0",
+    "popper.js": "^1.16.1",
+    "unminified-webpack-plugin": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "yarn": "^1.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^1.3.1",
+    "node-sass": "^4.14.1",
+    "npm": "^6.1.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
